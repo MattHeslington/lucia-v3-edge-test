@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@lucia-auth/adapter-postgresql':
     specifier: ^3.1.1
-    version: 3.1.1(@neondatabase/serverless@0.7.2)(lucia@3.1.1)
+    version: 3.1.1(@neondatabase/serverless@0.9.0)(lucia@3.1.1)
   '@neondatabase/serverless':
-    specifier: ^0.7.0
-    version: 0.7.2
+    specifier: ^0.9.0
+    version: 0.9.0
   arctic:
     specifier: ^1.2.1
     version: 1.2.1
@@ -21,7 +21,7 @@ devDependencies:
     version: 3.1.1(@sveltejs/kit@2.5.4)
   '@sveltejs/adapter-cloudflare':
     specifier: ^4.1.0
-    version: 4.2.0(@sveltejs/kit@2.5.4)(wrangler@3.37.0)
+    version: 4.2.0(@sveltejs/kit@2.5.4)(wrangler@3.38.0)
   '@sveltejs/kit':
     specifier: ^2.0.0
     version: 2.5.4(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.2.6)
@@ -853,7 +853,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@lucia-auth/adapter-postgresql@3.1.1(@neondatabase/serverless@0.7.2)(lucia@3.1.1):
+  /@lucia-auth/adapter-postgresql@3.1.1(@neondatabase/serverless@0.9.0)(lucia@3.1.1):
     resolution: {integrity: sha512-FxAi/Uq42YqBNVBLKXmqu3SImUPZChnQiBNUU2DSknO5eT0Ma0j5aj9g9WXRO+1hd3qESUA7D4BTYpnwEbOkkQ==}
     peerDependencies:
       '@neondatabase/serverless': 0.7.x
@@ -868,7 +868,7 @@ packages:
       postgres:
         optional: true
     dependencies:
-      '@neondatabase/serverless': 0.7.2
+      '@neondatabase/serverless': 0.9.0
       lucia: 3.1.1
     dev: false
 
@@ -881,8 +881,8 @@ packages:
       '@tybys/wasm-util': 0.8.1
     optional: true
 
-  /@neondatabase/serverless@0.7.2:
-    resolution: {integrity: sha512-wU3WA2uTyNO7wjPs3Mg0G01jztAxUxzd9/mskMmtPwPTjf7JKWi9AW5/puOGXLxmZ9PVgRFeBVRVYq5nBPhsCg==}
+  /@neondatabase/serverless@0.9.0:
+    resolution: {integrity: sha512-mmJnUAzlzvxNSZuuhI6kgJjH+JgFdBMYUWxihtq/nj0Tjt+Y5UU3W+SvRFoucnd5NObYkuLYQzk+zV5DGFKGJg==}
     dependencies:
       '@types/pg': 8.6.6
     dev: false
@@ -1596,7 +1596,7 @@ packages:
       import-meta-resolve: 4.0.0
     dev: true
 
-  /@sveltejs/adapter-cloudflare@4.2.0(@sveltejs/kit@2.5.4)(wrangler@3.37.0):
+  /@sveltejs/adapter-cloudflare@4.2.0(@sveltejs/kit@2.5.4)(wrangler@3.38.0):
     resolution: {integrity: sha512-CMpz8AvnCOyDvzO+OdZJrRU8OAxs1hRAmfYd0IC2CyzFCuQaFJADeYmLhWGE4+CxhK16nsLYhBFbBc1DWpq0Pg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
@@ -1606,7 +1606,7 @@ packages:
       '@sveltejs/kit': 2.5.4(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.2.6)
       esbuild: 0.19.12
       worktop: 0.8.0-next.18
-      wrangler: 3.37.0
+      wrangler: 3.38.0
     dev: true
 
   /@sveltejs/kit@2.5.4(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.2.6):
@@ -3130,8 +3130,8 @@ packages:
       regexparam: 3.0.0
     dev: true
 
-  /wrangler@3.37.0:
-    resolution: {integrity: sha512-dffPF92EApW77lIYXxz0DMoMm2LPMlFNlgrQ0jNj7g7Mm/AaogtSuY7jXNLSeoniYNHL/57V7wlVBn82aYIqyg==}
+  /wrangler@3.38.0:
+    resolution: {integrity: sha512-sm6WNKRKax6cC+E2SBGWx3+Wabh047oxZolBwH0AMok+PINs4vsoS8x6ZJ4dk+iIXZQ2RzZLr3gyWSUA44q4Rg==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
